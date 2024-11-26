@@ -8,7 +8,7 @@ class Options(StrEnum):
     LIZARD = "lizard"
     SPOCK = "spock"
 
-options = [Options.ROCK, Options.PAPER, Options.SCISSORS, Options.LIZARD, Options.SPOCK]
+options = [option.value for option in Options]
 
 #  Rules:
 # Scissors cuts Paper
